@@ -87,11 +87,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="%24safeprojectname%24Cmd.cpp" />
-    <ClCompile Include="%24safeprojectname%24CmdMain.cpp" />
+    <ClCompile Include="$safeprojectname$Cmd.cpp" />
+    <ClCompile Include="$safeprojectname$CmdMain.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="%24safeprojectname%24Cmd.h" />
+    <ClInclude Include="$safeprojectname$Cmd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maya.props" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

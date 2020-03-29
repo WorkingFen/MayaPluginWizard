@@ -13,9 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Property Files">
+      <UniqueIdentifier>{6d6a62eb-56c2-4df8-a4d8-afd984945ede}</UniqueIdentifier>
+      <Extensions>props</Extensions>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="%24safeprojectname%24Main.cpp">
+    <None Include="Maya.props">
+      <Filter>Property Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$safeprojectname$Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

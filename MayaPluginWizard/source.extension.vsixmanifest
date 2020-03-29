@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="MayaPluginWizard.23923bbe-e3ed-4581-9d88-ea999603ac1f" Version="0.1.0" Language="en-US" Publisher="WorkingFen" />
+        <Identity Id="MayaPluginWizard.23923bbe-e3ed-4581-9d88-ea999603ac1f" Version="0.1.1" Language="en-US" Publisher="WorkingFen" />
         <DisplayName>MayaPluginWizard</DisplayName>
-        <Description xml:space="preserve">Reimplemented Maya Plugin Wizard with all projects you could find in Maya Plugin Wizard 2.0 for Visual Studio 2013</Description>
+        <Description xml:space="preserve">Reimplemented Maya Plugin Wizard 2.0 for Visual Studio 2017 and Visual Studio 2019 originally  made for Visual Studio 2013.</Description>
         <Icon>MayaPluginWizard.ico</Icon>
         <Tags>Maya</Tags>
     </Metadata>

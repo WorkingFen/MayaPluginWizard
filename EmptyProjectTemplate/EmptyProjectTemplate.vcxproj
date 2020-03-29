@@ -90,7 +90,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="%24safeprojectname%24Main.cpp" />
+    <ClCompile Include="$safeprojectname$Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maya.props" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

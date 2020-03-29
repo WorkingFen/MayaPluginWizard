@@ -1,7 +1,7 @@
 #ifndef _$safeprojectname$Node
 #define _$safeprojectname$Node
 //
-// Copyright (C) $username$
+// Copyright (C) $year$ $username$
 // 
 // File: $safeprojectname$Node.h
 //

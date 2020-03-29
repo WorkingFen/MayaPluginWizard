@@ -18,6 +18,7 @@
 	</TemplateData>
 	<TemplateContent>
 		<Project TargetFileName="$fileinputname$Node.vcxproj" File="DGNProjectTemplate.vcxproj" ReplaceParameters="true">
+			<ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.vcxproj.filters">$safeprojectname$.vcxproj.filters</ProjectItem>
 			<ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Node.cpp">$safeprojectname$Node.cpp</ProjectItem>
 			<ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Node.h">$safeprojectname$Node.h</ProjectItem>
 			<ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$NodeMain.cpp">$safeprojectname$NodeMain.cpp</ProjectItem>

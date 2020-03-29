@@ -1,5 +1,5 @@
 //
-// Copyright (C) $username$
+// Copyright (C) $year$ $username$
 // 
 // File: $safeprojectname$Cmd.cpp
 //

@@ -14,22 +14,14 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Property Files">
-      <UniqueIdentifier>{a991994a-9481-4803-adbd-a67487dbb1f7}</UniqueIdentifier>
+      <UniqueIdentifier>{6d6a62eb-56c2-4df8-a4d8-afd984945ede}</UniqueIdentifier>
 	  <Extensions>props</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$safeprojectname$NodeMain.cpp">
+    <ClCompile Include="$safeprojectname$Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$safeprojectname$Node.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="$safeprojectname$Node.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Maya.props">
