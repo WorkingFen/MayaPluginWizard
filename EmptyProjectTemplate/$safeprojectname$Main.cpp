@@ -19,7 +19,7 @@
 **/
 MStatus initializePlugin(MObject obj) { 
 	MStatus status;
-	MFnPlugin plugin(obj, "username", "MAYA_VERSION", "Any");
+	MFnPlugin plugin(obj, "$username$", "MAYA_VERSION", "Any");
 
 	// Add plug-in feature registration here
 
