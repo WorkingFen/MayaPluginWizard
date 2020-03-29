@@ -18,6 +18,7 @@
 	</TemplateData>
 	<TemplateContent>
 		<Project TargetFileName="$fileinputname$Cmd.vcxproj" File="ComplexMELCmdProjectTemplate.vcxproj" ReplaceParameters="true">
+			<ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.vcxproj.filters">$safeprojectname$.vcxproj.filters</ProjectItem>
 			<ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Cmd.cpp">$safeprojectname$Cmd.cpp</ProjectItem>
 			<ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Cmd.h">$safeprojectname$Cmd.h</ProjectItem>
 			<ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$CmdMain.cpp">$safeprojectname$CmdMain.cpp</ProjectItem>
