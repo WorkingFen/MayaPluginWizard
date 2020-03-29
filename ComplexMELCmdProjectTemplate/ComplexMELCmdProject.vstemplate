@@ -21,6 +21,7 @@
 			<ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Cmd.cpp">$safeprojectname$Cmd.cpp</ProjectItem>
 			<ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Cmd.h">$safeprojectname$Cmd.h</ProjectItem>
 			<ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$CmdMain.cpp">$safeprojectname$CmdMain.cpp</ProjectItem>
+			<ProjectItem>Maya.props</ProjectItem>
 		</Project>
 	</TemplateContent>
 </VSTemplate>

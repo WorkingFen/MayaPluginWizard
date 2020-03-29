@@ -19,6 +19,7 @@
 	<TemplateContent>
 		<Project TargetFileName="$fileinputname$Cmd.vcxproj" File="MELCmdProjectTemplate.vcxproj" ReplaceParameters="true">
 			<ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Cmd.cpp">$safeprojectname$Cmd.cpp</ProjectItem>
+			<ProjectItem>Maya.props</ProjectItem>
 		</Project>
 	</TemplateContent>
 </VSTemplate>
