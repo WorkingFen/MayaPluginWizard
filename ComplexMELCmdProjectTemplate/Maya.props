@@ -12,7 +12,7 @@
       <AdditionalIncludeDirectories>$(DEVKIT_LOCATION)\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>foundation.lib;openmaya.lib;openmayaui.lib;openmayanim.lib;openmayafx.lib;openmayarender.lib;image.lib;libmocap.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>foundation.lib;openmaya.lib;openmayaui.lib;openmayaanim.lib;openmayafx.lib;openmayarender.lib;image.lib;libmocap.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(DEVKIT_LOCATION)\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
