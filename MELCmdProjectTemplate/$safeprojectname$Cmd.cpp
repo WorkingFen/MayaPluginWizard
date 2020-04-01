@@ -14,7 +14,7 @@
 /* Use helper macro to register a command with Maya.  It creates and
 registers a command that does not support undo or redo.  The 
 created class derives off of MPxCommand. */
-DeclareSimpleCommand($safeprojectname$, "$username$", "[!output MAYA_VERSION]");
+DeclareSimpleCommand($safeprojectname$, "$username$", "0.1.0");
 
 /**
 *	Description:

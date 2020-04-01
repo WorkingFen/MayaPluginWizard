@@ -9,11 +9,11 @@
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(DEVKIT_LOCATION)\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(DEVKIT_LOCATION)\include; $(MAYA_LOCATION)\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalDependencies>foundation.lib;openmaya.lib;openmayaui.lib;openmayaanim.lib;openmayafx.lib;openmayarender.lib;image.lib;libmocap.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(DEVKIT_LOCATION)\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(DEVKIT_LOCATION)\lib; $(MAYA_LOCATION)\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup />
