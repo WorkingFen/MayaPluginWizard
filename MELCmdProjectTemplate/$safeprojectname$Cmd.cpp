@@ -18,7 +18,7 @@ DeclareSimpleCommand($safeprojectname$, "$username$", "[!output MAYA_VERSION]");
 
 /**
 *	Description:
-*		implements the MEL [!output MAYA_TYPE_NAME] command.
+*		implements the MEL $safeprojectname$ command.
 *
 *	Arguments:
 *		args - the argument list that was passes to the command from MEL
